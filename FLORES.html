@@ -308,51 +308,5 @@
       </div>
     </div>
     <script src="main.js"></script>
-
-
-<body class="container">
-    <div class="night"></div>
-    <div class="flowers">
-        <img src="img/firstflower.png" alt="First flower">
-        <img src="img/secondflower.png" alt="Second flower">
-        <img src="img/thirdflower.png" alt="Third flower">
-        <img src="img/fourthflower.png" alt="Fourth flower">
-        <img src="img/fifthflower.png" alt="Fifth flower">
-        <img src="img/sixthflower.png" alt="Sixth flower">
-        <img src="img/seventhflower.png" alt="Seventh flower">
-        <img src="img/eighthflower.png" alt="Eighth flower">
-        
-        <!-- Contador de tiempo -->
-        <div id="countdown" style="font-size: 24px; color: #333; margin-top: 20px;">Tiempo restante: 00:00:00</div>
-    </div>
-
-    <script>
-        // Función para iniciar el contador
-        function startTimer(duration, display) {
-            let timer = duration, hours, minutes, seconds;
-            setInterval(function () {
-                hours = parseInt(timer / 3600, 10);
-                minutes = parseInt((timer % 3600) / 60, 10);
-                seconds = parseInt(timer % 60, 10);
-
-                hours = hours < 10 ? "0" + hours : hours;
-                minutes = minutes < 10 ? "0" + minutes : minutes;
-                seconds = seconds < 10 ? "0" + seconds : seconds;
-
-                display.textContent = "Tiempo restante: " + hours + ":" + minutes + ":" + seconds;
-
-                if (--timer < 0) {
-                    timer = duration; // O puedes detener el temporizador aquí
-                }
-            }, 1000);
-        }
-
-        // Aquí defines la duración del contador (en segundos)
-        window.onload = function () {
-            let countdownDuration = 60 * 60; // 1 hora en segundos
-            let display = document.querySelector('#countdown');
-            startTimer(countdownDuration, display);
-        };
-    </script>
-</body>
+  </body>
 </html>
