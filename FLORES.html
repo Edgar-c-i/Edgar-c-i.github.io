@@ -7,70 +7,9 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" href="img/flowers.png" type="image/x-icon">
     <title>FLORES</title>
-    <script>
-        // Función para iniciar el contador
-        function startTimer() {
-            let seconds = 0;
-            let timerElement = document.getElementById("timer");
-
-            // Función para actualizar el tiempo
-            function updateTimer() {
-                seconds++;
-                let hours = Math.floor(seconds / 3600);
-                let minutes = Math.floor((seconds % 3600) / 60);
-                let secs = seconds % 60;
-
-                // Formatear el tiempo
-                timerElement.textContent = 
-                    (hours < 10 ? "0" : "") + hours + ":" +
-                    (minutes < 10 ? "0" : "") + minutes + ":" +
-                    (secs < 10 ? "0" : "") + secs;
-            }
-
-            // Actualizar cada segundo
-            setInterval(updateTimer, 1000);
-        }
-
-        // Iniciar el temporizador cuando la página esté completamente cargada
-        window.onload = startTimer;
-    </script>
 </head>
 
 <body class="container">
-    <!-- Contador de tiempo -->
-    <div id="timer" style="font-size: 24px; margin-top: 20px; color: #333;">00:00:00</div>
-
-    <div class="night"></div>
-    <div class="flowers">
-      <div class="flower flower--1">
-        <div class="flower__leafs flower__leafs--1">
-          <div class="flower__leaf flower__leaf--1"></div>
-          <div class="flower__leaf flower__leaf--2"></div>
-          <div class="flower__leaf flower__leaf--3"></div>
-          <div class="flower__leaf flower__leaf--4"></div>
-          <div class="flower__white-circle"></div>
-
-          <div class="flower__light flower__light--1"></div>
-          <div class="flower__light flower__light--2"></div>
-          <div class="flower__light flower__light--3"></div>
-          <div class="flower__light flower__light--4"></div>
-          <div class="flower__light flower__light--5"></div>
-          <div class="flower__light flower__light--6"></div>
-          <div class="flower__light flower__light--7"></div>
-          <div class="flower__light flower__light--8"></div>
-
-        </div>
-        <div class="flower__line">
-          <div class="flower__line__leaf flower__line__leaf--1"></div>
-          <div class="flower__line__leaf flower__line__leaf--2"></div>
-          <div class="flower__line__leaf flower__line__leaf--3"></div>
-          <div class="flower__line__leaf flower__line__leaf--4"></div>
-          <div class="flower__line__leaf flower__line__leaf--5"></div>
-          <div class="flower__line__leaf flower__line__leaf--6"></div>
-        </div>
-      </div>
-
-      <body class="container">
     <div class="night"></div>
     <div class="flowers">
       <div class="flower flower--1">
@@ -370,4 +309,61 @@
     </div>
     <script src="main.js"></script>
   </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="img/flowers.png" type="image/x-icon">
+    <title>FLORES</title>
+</head>
+
+<body class="container">
+    <div class="night"></div>
+    <div class="flowers">
+        <img src="img/firstflower.png" alt="First flower">
+        <img src="img/secondflower.png" alt="Second flower">
+        <img src="img/thirdflower.png" alt="Third flower">
+        <img src="img/fourthflower.png" alt="Fourth flower">
+        <img src="img/fifthflower.png" alt="Fifth flower">
+        <img src="img/sixthflower.png" alt="Sixth flower">
+        <img src="img/seventhflower.png" alt="Seventh flower">
+        <img src="img/eighthflower.png" alt="Eighth flower">
+        
+        <!-- Contador de tiempo -->
+        <div id="countdown" style="font-size: 24px; color: #333; margin-top: 20px;">Tiempo restante: 00:00:00</div>
+    </div>
+
+    <script>
+        // Función para iniciar el contador
+        function startTimer(duration, display) {
+            let timer = duration, hours, minutes, seconds;
+            setInterval(function () {
+                hours = parseInt(timer / 3600, 10);
+                minutes = parseInt((timer % 3600) / 60, 10);
+                seconds = parseInt(timer % 60, 10);
+
+                hours = hours < 10 ? "0" + hours : hours;
+                minutes = minutes < 10 ? "0" + minutes : minutes;
+                seconds = seconds < 10 ? "0" + seconds : seconds;
+
+                display.textContent = "Tiempo restante: " + hours + ":" + minutes + ":" + seconds;
+
+                if (--timer < 0) {
+                    timer = duration; // O puedes detener el temporizador aquí
+                }
+            }, 1000);
+        }
+
+        // Aquí defines la duración del contador (en segundos)
+        window.onload = function () {
+            let countdownDuration = 60 * 60; // 1 hora en segundos
+            let display = document.querySelector('#countdown');
+            startTimer(countdownDuration, display);
+        };
+    </script>
+</body>
 </html>
