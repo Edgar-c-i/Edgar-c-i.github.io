@@ -4,7 +4,7 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
-  { text: "En el momento", time: 15 },
+  { text: "Mi lema es ser más fuerte que ayer, si es necesario estaré más fuerte que hace medio día, incluso más fuerte que hace un minuto. (Rock Lee)", time: 15 },
   { text: "El susurro de los pájaros", time: 18 },
   { text: "Solitario antes del sol lloró", time: 27 },
   { text: "Cayó del cielo", time: 32 },
