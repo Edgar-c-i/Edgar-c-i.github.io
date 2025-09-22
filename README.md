@@ -1,14 +1,4 @@
-# Kado
--Flower code from: https://codepen.io/mdusmanansari/pen/BamepLe
+# ✅ Sorprende  a tu Novia con este Proyecto de  Flor Amarilla 🌻 | HTML CSS JS
+### Video del tutorial: [https://youtu.be/ZSSOiJaMIk0](https://youtu.be/ZSSOiJaMIk0)
 
-
-# Description
-Flower code tiktok trend 
-
-Responsive Web -- bisa langsung disesuikan di file css --> style.css
-
-# Author
-- Flower Code : Md Usman Ansari (@MdUsmanAnsari)
-- Index Code : Septian Dwi Cahyo (@Septiandwica)
-
-Thanks to codepan and mdusmanansari
+![image](https://github.com/user-attachments/assets/899d1b33-bc87-45f8-8cb9-e11cf992a9d6)
