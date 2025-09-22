@@ -30,6 +30,8 @@ var lyricsData = [
   { text: "No es un desafío", time: 140 },
   { text: "solo una invitación", time: 144 },
   { text: "Con cariño Yo", time: 150 },
+  { text: "Como dijo Cerati", time: 154 },
+  { text: "EL FIN DE AMAR ES SENTIRSE VIVO", time: 159 },
 ];
 
 // Animar las letras
