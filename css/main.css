@@ -238,7 +238,7 @@ body {
   transform: translate(-50%, -100%);
   width: 8vmin;
   height: 8vmin;
-  background-color: #f9fd25;
+  background-color: #e9e9e5;
   /* background-color: #fd2525; */
   filter: blur(10vmin);
 }
@@ -250,7 +250,7 @@ body {
   height: 11vmin;
   border-radius: 51% 49% 47% 53%/44% 45% 55% 69%;
   background-color: #253bfd;
-  background-color: #fddd25;
+  background-color: #eeede5;
   transform-origin: bottom center;
   opacity: 0.9;
   box-shadow: inset 0 0 2vmin rgba(255, 255, 255, 0.5);
