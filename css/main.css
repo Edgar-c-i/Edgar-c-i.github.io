@@ -397,7 +397,7 @@ body {
       transparent 1px,
       transparent 12px
     ),
-    linear-gradient(90deg, rgb(255, 235, 18), rgb(255, 206, 0));
+    linear-gradient(90deg, rgb(247, 246, 242), rgb(245, 243, 234));
 }
 .flower__line {
   height: 55vmin;
@@ -462,7 +462,7 @@ body {
   bottom: 0vmin;
   width: 1vmin;
   height: 1vmin;
-  background-color: rgb(255, 251, 0);
+  background-color: rgb(255, 255, 247);
   border-radius: 50%;
   filter: blur(0.2vmin);
   -webkit-animation: light-ans 4s linear infinite backwards;
