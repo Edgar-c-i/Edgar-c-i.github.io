@@ -4,7 +4,7 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
-  { text: "En cada aldea hay secretos", time: 15 },
+  { text: "En cada aldea hay secreto", time: 15 },
   { text: "en cada ninja hay historias", time: 18 },
   { text: "y yo me pregunto cuál será la tuya", time: 27 },
   { text: "No hace falta un jutsu", time: 32 },
