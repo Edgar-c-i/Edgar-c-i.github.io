@@ -238,7 +238,7 @@ body {
   transform: translate(-50%, -100%);
   width: 8vmin;
   height: 8vmin;
-  background-color: #e9e9e5;
+  background-color: #f0f0e6;
   /* background-color: #fd2525; */
   filter: blur(10vmin);
 }
@@ -270,7 +270,7 @@ body {
   transform-origin: bottom left;
   border-radius: 4vmin 10vmin 4vmin 4vmin;
   transform: translate(0%, 18%) rotateX(70deg) rotate(-43deg);
-  background-color: #7c6901;
+  background-color: #cfceca;
   z-index: 1;
   opacity: 0.8;
 }
