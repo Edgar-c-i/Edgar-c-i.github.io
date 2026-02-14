@@ -70,4 +70,4 @@ function ocultarTitulo() {
 }
 
 // Llama a la función después de 216 segundos (216,000 milisegundos)
-setTimeout(ocultarTitulo, 100);
+setTimeout(ocultarTitulo, 216000);
