@@ -8,7 +8,7 @@ var lyricsData = [
   { text: "porque entre flores blancas y sueños que no se rinden", time: 18 },
   { text: "Camina tu vocación vestida de medicina", time: 27 },
   { text: "con la pureza de quien nacio para sanar", time: 32 },
-  { text: "Lo digo con justa exprecion de causa", time: 33 },
+  { text: "Lo digo con justa exprecion de causa", time: 35 },
   { text: "porque sin darte cuenta, hiciste mas ameno mi 2025", time: 41 },
   { text: "Con charlas,  risas y momentos ", time: 47 },
   { text: "por eso,  estoy orgulloso de vos", time: 54 },
@@ -22,7 +22,7 @@ var lyricsData = [
   { text: "que nunca lo olvides lo que me contaste,  porque yo no lo voy a olvidar", time: 104 },
   { text: "lucha por cada meta, hasta volver realidad tus anhelos", time: 108 },
   { text: "la vez pasada pase toda la tarde tomando terere y escuchando musica", time: 114 },
-  { text: "ya me preocupa poner cualquier musica, y con 1 termo de terere me lleno", time: 119 },
+  { text: "ya no me preocupa poner musica, y con 1 termo de terere me lleno", time: 119 },
   { text: "y por un tiempo pense que extrañaba estar asi ", time: 123 },
   { text: "y la realidad no", time: 126 },
   { text: "lo que exraño las tardes eternas", time: 129 },
@@ -40,9 +40,10 @@ var lyricsData = [
   { text: "Sin querer, te voy a encontrar ahí ", time: 190 },
   { text: "porque hay personas que se quedan viviendo en los detalles", time: 195 },
   { text: "y vos sos una de ellas", time: 200 },
-  { text: "por favor siempre sonrrei y nunca olvides ", time: 205 },
+  { text: "por favor siempre sonrei y nunca olvides ", time: 205 },
   { text: "Que cuando sonries se forman unas comillas en cada extremo de tu boca", time: 210 },
   { text: "Feliz dia del amor y la amistad con mucho cariño Yop", time: 215 },
+  { text: "Ya se acabo :)", time: 250 },
 ];
 
 // Animar las letras
