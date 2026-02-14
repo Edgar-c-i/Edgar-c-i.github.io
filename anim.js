@@ -1,7 +1,7 @@
 // Sincronizar las letras con la canción
 var audio = document.querySelector("audio");
 var lyrics = document.querySelector("#lyrics");
-
+setTimeout(ocultarTitulo, 13000);
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
   { text: "En cada aldea hay secreto", time: 15 },
@@ -70,4 +70,3 @@ function ocultarTitulo() {
 }
 
 // Llama a la función después de 216 segundos (216,000 milisegundos)
-setTimeout(ocultarTitulo, 216000);
