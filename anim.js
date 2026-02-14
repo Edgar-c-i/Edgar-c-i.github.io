@@ -25,7 +25,7 @@ var lyricsData = [
   { text: "ya no me preocupa poner musica, y con 1 termo de terere me lleno", time: 119 },
   { text: "y por un tiempo pense que extrañaba estar asi ", time: 123 },
   { text: "y la realidad no", time: 126 },
-  { text: "lo que exraño las tardes eternas", time: 129 },
+  { text: "lo que extraño las tardes eternas", time: 129 },
   { text: "el ruido de la tela,  la musica mesclado con carcajadas", time: 134 },
   { text: "las conversaciones que se volvian cada vez mas profundas a medida que avanzaba el tiempo", time: 140 },
   { text: "extraño que todo nos importaba, pero al mismo tiempo nada nos preocupaba", time: 144 },
@@ -40,9 +40,10 @@ var lyricsData = [
   { text: "Sin querer, te voy a encontrar ahí ", time: 190 },
   { text: "porque hay personas que se quedan viviendo en los detalles", time: 195 },
   { text: "y vos sos una de ellas", time: 200 },
-  { text: "por favor siempre sonrei y nunca olvides ", time: 205 },
-  { text: "Que cuando sonries se forman unas comillas en cada extremo de tu boca", time: 210 },
-  { text: "Feliz dia del amor y la amistad con mucho cariño Yop", time: 215 },
+  { text: "por favor siempre sonríe y nunca olvides ", time: 205 },
+  { text: "Que cuando sonríes se forman unas comillas en cada extremo de tu boca", time: 210 },
+  { text: "y que particularmente me gustan :)", time: 215 },
+  { text: "Feliz dia del amor y la amistad con mucho cariño  by: tu kp el más ramdon", time: 220 },
   { text: "Ya se acabo :)", time: 250 },
 ];
 
