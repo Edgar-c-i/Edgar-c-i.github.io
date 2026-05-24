@@ -6,7 +6,6 @@ setTimeout(ocultarTitulo, 15000);
 var lyricsData = [
   { text: "A veces uno conoce personas que llegan haciendo ruido", time: 15 },
   { text: "Y otras veces aparecen personas como vos", time: 18 },
-  { text: "Camina tu vocación vestida de medicina", time: 27 },
   { text: "que se quedan sin darse cuenta", time: 32 },
   { text: "entre conversaciones simples", time: 35 },
   { text: "audios random", time: 41 },
